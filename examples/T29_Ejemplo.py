@@ -1,4 +1,7 @@
 #-*- coding: utf-8 -*-
+"""
+
+"""
 #############################################################################################
 #fonetica3 library provide functions to make phonetic and phonological transcriptions of 
 #words in Spanish
@@ -21,26 +24,26 @@
 #    You should have received a copy of the GNU General Public License
 #    along with fonetica3 library.  If not, see <http://www.gnu.org/licenses/>.
 #############################################################################################
-#T66_Ejemplo.py
+#T29_Ejemplo.py
 
 #Autor: Carlos Daniel Hernandez Mena
 #Fecha: 06 de Julio del 2015
 
 #Funcion:
 
-#	$ python T66_Ejemplo.py
+#	$ python T29_Ejemplo.py
 
 #Sinopsis
 
 
-#Este programa prueba la funcion T66() de la libreria fonetica3
-#que transcribe una palabra bien escrita en minusculas en Mexbet T66
+#Este programa prueba la funcion T29() de la libreria fonetica3
+#que transcribe una palabra bien escrita en minusculas en Mexbet T29
 
-#Hay que recordar que la funcion T66() es igual a la funcion T50() que 
+#Hay que recordar que la funcion T29() es igual a la funcion T22() que 
 #se conserva por compatibilidad.
 
-#El numero 66 refleja el numero de simbolos MEXBET utilizados en
-#en la transcripcion a nivel fonetico.
+#El numero 29 refleja el numero de simbolos MEXBET utilizados en
+#en la transcripcion a nivel fonologico.
 
 
 #Nota: Si el archivo de salida ya existia, este programa lo sobre-escribe
@@ -55,31 +58,45 @@ import sys
 #Añadir el path donde esta la carpeta "fonetica3"
 sys.path.append(".")
 
-#Modulo creado por mi donde viene la funcion T66()
-from fonetica3.T66 import T66
+#Modulo creado por mi donde viene la funcion T29()
+from fonetica3.T29 import T29
 
 #############################################################################################
 #Ejemplos de uso
 
-print T66("palabra")
+print T29("palabra")
 
-print T66("acción")
+print T29("acción")
 
-print T66("pErro")
+print T29("pErro")
 
-print T66("excelEnte")
+print T29("excelEnte")
 
-print T66("exámen")
+print T29("exámen")
 
-print T66("pEña")
+print T29("peña")
 
-print T66("ñoño")
+print T29("ñoño")
 
-print T66("itzcOatl")
+print T29("$ilOfono") 
 
-print T66("iztaccíhuatl")
+print T29("camagWei")
 
-print T66("SOlos")
+print T29("escena")
+
+print T29("escisiOn")
+
+print T29("itzcOatl")
+
+print T29("itsmo")
+
+
+print T29("huitzilihuitl")
+
+print T29("tlAhuac")
+
+print T29("show")
+
 
 
 
